@@ -1,34 +1,5 @@
 /*==============================color====================================*/
-:root {
-    --firstColor: #757575;
-    --secondtColor: #ffffff;
-    --colorHover: #2196f3;
-    --colorDefault: #212121;
-    --colorOpacity: rgba(255, 255, 255, 0.6);
-    --textcolor: #000000;
-    --BGcolor: #2f303a;
-    --bgsecendory: #f5f4fa;
-    --icons-color: #afb1b8;
-    --adventejisbgcolor: #f5f4fa;
-    --transition: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .container {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  body {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    color: var(--icons-color);
-  }
-  html {
-    scroll-behavior: smooth;
-    scroll-padding: 800px;
-  }
+
   /*=================================color===================================*/
   /*==================header====================*/
   .header-container {
