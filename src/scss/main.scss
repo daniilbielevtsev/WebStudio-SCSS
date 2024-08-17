@@ -1,6 +1,18 @@
-@import "./base/variables";
-@import "./base/reset";
-@import "./base/base";
-@import "./base/typography";
+@import "./pages/portfolio/base/variables";
+@import "./pages/portfolio/base/reset";
+@import "./pages/portfolio/base/base";
+@import "./pages/portfolio/base/typography";
 
-@import "./layaout/grids";
+@import "./pages/portfolio/layaout/grids";
+
+@import "./pages/portfolio/components/portfolio";
+@import "./pages/portfolio/components/buttons";
+@import "./pages/portfolio/components/article";
+// ===================portfolio==================
+
+@import "./pages/index/base/variables";
+@import "./pages/index/base/reset";
+@import "./pages/index/base/base";
+@import "./pages/index/base/typography";
+
+@import "./pages/index/layaout/grids";
