@@ -1,0 +1,18 @@
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background: var(--bgsecendory);
+}
+.teammets {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.teamate {
+  display: flex;
+  justify-content: center;
+  width: 1170px;
+  height: 368px;
+  gap: 30px;
+}

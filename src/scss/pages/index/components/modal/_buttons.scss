@@ -1,0 +1,51 @@
+.modal-colse-button {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--secondtColor);
+}
+.close-icon {
+  width: 18px;
+  height: 18px;
+  fill: var(--textcolor);
+  transition-property: fill, transform;
+  transition-duration: 250ms;
+  transition-timing-function: var(--transition);
+}
+.modal-colse-button:hover .close-icon {
+  fill: var(--colorHover);
+  transform: scale(1.2);
+}
+
+.button-container {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subscribes-hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 187%;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: var(--secondtColor);
+  padding: 10px 52px;
+  background-color: var(--colorHover);
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #2196f3;
+  transition: background-color 250ms var(--transition);
+}
+.subscribes-hero-btn:hover {
+  background-color: #fff;
+  color: #2196f3;
+  border: 1px solid #2196f3;
+}

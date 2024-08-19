@@ -16,3 +16,65 @@
 @import "./pages/index/base/typography";
 
 @import "./pages/index/layaout/grids";
+
+// ===========================header========================
+@import "./pages/index/components/header/header";
+@import "./pages/index/components/header/logo";
+@import "./pages/index/components/header/links";
+@import "./pages/index/components/header/svgphoto";
+
+// ===========================hero==========================
+@import "./pages/index/components/hero/hero";
+@import "./pages/index/components/hero/titel";
+@import "./pages/index/components/hero/button";
+
+// ==============================adventeges================
+@import "./pages/index/components/adventeges/adventeges";
+@import "./pages/index/components/adventeges/items";
+@import "./pages/index/components/adventeges/photos";
+
+// =========================work=============================
+@import "./pages/index/components/work/work";
+@import "./pages/index/components/work/titel";
+@import "./pages/index/components/work/photos";
+@import "./pages/index/components/work/label";
+
+// ======================team=============================
+@import "./pages/index/components/team/team";
+@import "./pages/index/components/team/titel";
+@import "./pages/index/components/team/article";
+@import "./pages/index/components/team/photos";
+@import "./pages/index/components/team/name";
+@import "./pages/index/components/team/role";
+@import "./pages/index/components/team/partner";
+@import "./pages/index/components/team/links";
+@import "./pages/index/components/team/svgphotos";
+
+// =======================klients=============================
+@import "./pages/index/components/klients/klients";
+@import "./pages/index/components/klients/titel";
+@import "./pages/index/components/klients/link";
+@import "./pages/index/components/klients/svgphotos";
+@import "./pages/index/components/klients/scroltop";
+
+// =====================footer==================================
+@import "./pages/index/components/footer/footer";
+@import "./pages/index/components/footer/logo";
+@import "./pages/index/components/footer/links";
+
+@import "./pages/index/components/footer/website";
+@import "./pages/index/components/footer/websitelinks";
+
+@import "./pages/index/components/footer/subscribes";
+@import "./pages/index/components/footer/input";
+@import "./pages/index/components/footer/button";
+
+// ===============modal==============================
+@import "./pages/index/components/modal/modal";
+@import "./pages/index/components/modal/titel";
+@import "./pages/index/components/modal/form";
+@import "./pages/index/components/modal/regiester";
+@import "./pages/index/components/modal/icons";
+@import "./pages/index/components/modal/massege";
+@import "./pages/index/components/modal/buttons";
+@import "./pages/index/components/modal/agree";

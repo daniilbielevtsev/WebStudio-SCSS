@@ -1,0 +1,17 @@
+.work-label {
+  position: relative;
+  flex-basis: calc((100% - 60px) / 3);
+}
+.label {
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  background: rgba(47, 48, 58, 0.8);
+  padding-top: 27px;
+  padding-bottom: 27px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: var(--secondtColor);
+}

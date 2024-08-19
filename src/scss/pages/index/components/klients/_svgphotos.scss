@@ -1,0 +1,20 @@
+.klients-logo {
+  width: 106px;
+  height: 60px;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: var(--transition);
+}
+.klients-link:hover {
+  border: 1px solid var(--colorHover);
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+}
+
+.klients-logo {
+  fill: var(--icons-color);
+}
+.klients-item:hover .klients-logo {
+  fill: var(--colorHover);
+}

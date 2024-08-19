@@ -1,0 +1,22 @@
+.advantages-item::before {
+  content: "";
+  display: block;
+  height: 120px;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--adventejisbgcolor);
+  margin-bottom: 30px;
+}
+.advantages-item-1::before {
+  background-image: url(../img/adventedjis-firstphoto.svg);
+}
+.advantages-item-2::before {
+  background-image: url(../img/adventejis-clock.svg);
+}
+.advantages-item-3::before {
+  background-image: url(../img/adventejis-diagram.svg);
+}
+.advantages-item-4:before {
+  background-image: url(../img/adventejis-astronaut.svg);
+}

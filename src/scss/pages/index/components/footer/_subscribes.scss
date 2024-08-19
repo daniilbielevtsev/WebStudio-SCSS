@@ -1,0 +1,15 @@
+.container-subscribes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.subscribes-titel {
+  color: var(--secondtColor);
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.subscribes {
+  display: flex;
+  gap: 12px;
+}

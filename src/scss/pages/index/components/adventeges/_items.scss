@@ -1,0 +1,14 @@
+.advantages-item {
+  flex-basis: calc((100% - 90px) / 4);
+}
+.adventeges-titel {
+  color: var(--textcolor);
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+.adventeges-text {
+  letter-spacing: 0.03em;
+  line-height: 1.71429;
+  color: var(--firstColor);
+}

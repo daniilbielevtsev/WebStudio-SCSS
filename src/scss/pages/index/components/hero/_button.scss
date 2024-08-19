@@ -1,0 +1,19 @@
+.hero-button {
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-align: center;
+  padding: 10px 32px;
+  color: var(--secondtColor);
+  background-color: var(--colorHover);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  transition-property: background-color, transform;
+  transition: 250ms var(--transition);
+  transform: scale(1);
+}
+.hero-button:hover {
+  background-color: #0871c6;
+  transform: scale(1.1);
+}

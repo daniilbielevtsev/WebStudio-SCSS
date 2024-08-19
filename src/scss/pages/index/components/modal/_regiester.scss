@@ -1,0 +1,30 @@
+.regidter-name:focus-within {
+  fill: var(--colorHover);
+}
+.regidter-name:hover,
+.regidter-name:focus-within {
+  border: 1px solid var(--colorHover);
+  border-radius: 4px;
+}
+.form-label {
+  font-size: 12px;
+  letter-spacing: 0.01em;
+  color: var(--firstColor);
+}
+.regidter-name {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 12px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  transition-property: background-color, border;
+  transition-duration: 250ms;
+  transition-timing-function: var(--transition);
+}
+.modal-regidter:last-of-type {
+  margin-bottom: 20px;
+}

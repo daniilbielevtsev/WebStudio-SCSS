@@ -1,0 +1,25 @@
+.websit-icons-link {
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: var(--transition);
+}
+.websit-icons-list {
+  display: flex;
+  gap: 10px;
+}
+.websit-icons-link:hover {
+  background-color: var(--colorHover);
+}
+
+.website-icon {
+  height: 22px;
+  width: 22px;
+  fill: var(--secondtColor);
+}

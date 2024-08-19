@@ -1,0 +1,13 @@
+.klients-link {
+  border: 1px solid var(--icons-color);
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: var(--transition);
+  flex-basis: calc((100% - 150px) / 6);
+}
