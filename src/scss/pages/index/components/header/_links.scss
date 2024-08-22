@@ -1,14 +1,14 @@
 .nav-link {
   font-weight: 500;
   letter-spacing: 0.02em;
-  color: var(--textcolor);
+  color: $textcolor;
   position: relative;
   transition-property: color;
   transition-duration: 250ms;
-  transition-timing-function: var(--transition);
+  transition-timing-function: $transition;
 }
 .nav-link:hover {
-  color: var(--colorHover);
+  color: $colorHover;
 }
 .nav-link::after {
   position: absolute;
@@ -16,11 +16,11 @@
   width: 100%;
   border-radius: 2px;
   height: 4px;
-  background-color: var(--colorHover);
+  background-color: $colorHover;
   bottom: -31px;
   left: 0;
   transform: scaleX(0);
-  transition: transform 250ms var(--transition);
+  transition: transform 250ms $transition;
 }
 .link-active::after,
 .nav-link:hover::after {
@@ -33,11 +33,11 @@
   gap: 10px;
   font-weight: 500;
   letter-spacing: 0.02em;
-  color: var(--firstColor);
+  color: $firstColor;
   transition-property: color;
   transition-duration: 250ms;
-  transition-timing-function: var(--transition);
+  transition-timing-function: $transition;
 }
 .contakts-item:hover .contakts-link {
-  color: var(--colorHover);
+  color: $colorHover;
 }

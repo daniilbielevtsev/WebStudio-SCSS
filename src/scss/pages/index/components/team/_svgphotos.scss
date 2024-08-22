@@ -1,13 +1,13 @@
 .partner-icon {
   width: 20px;
   height: 20px;
-  fill: var(--icons-color);
+  fill: $icons-color;
   transition-property: fill;
   transition-duration: 250ms;
-  transition-timing-function: var(--transition);
+  transition-timing-function: $transition;
   transition-duration: fill;
-  transition: 250ms var(--transition);
+  transition: 250ms $transition;
 }
 .partner-icon:hover {
-  fill: var(--secondtColor);
+  fill: $secondtColor;
 }

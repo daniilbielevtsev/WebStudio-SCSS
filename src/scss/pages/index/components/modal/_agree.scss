@@ -1,10 +1,10 @@
 .agree-checkbox {
   width: 16px;
   height: 15px;
-  background-color: var(--textcolor);
+  background-color: $textColor;
 }
 .text-agree-link {
   text-decoration: underline;
   text-decoration-skip-ink: none;
-  color: var(--colorHover);
+  color: $colorHover;
 }

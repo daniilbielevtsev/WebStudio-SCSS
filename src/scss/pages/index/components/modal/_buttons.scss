@@ -9,18 +9,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--secondtColor);
+  background-color: $secondtColor;
 }
 .close-icon {
   width: 18px;
   height: 18px;
-  fill: var(--textcolor);
+  fill: $textColor;
   transition-property: fill, transform;
   transition-duration: 250ms;
-  transition-timing-function: var(--transition);
+  transition-timing-function: $transition;
 }
 .modal-colse-button:hover .close-icon {
-  fill: var(--colorHover);
+  fill: $colorHover;
   transform: scale(1.2);
 }
 
@@ -36,13 +36,13 @@
   line-height: 187%;
   letter-spacing: 0.06em;
   text-align: center;
-  color: var(--secondtColor);
+  color: $secondtColor;
   padding: 10px 52px;
-  background-color: var(--colorHover);
+  background-color: $colorHover;
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #2196f3;
-  transition: background-color 250ms var(--transition);
+  transition: background-color 250ms $transition;
 }
 .subscribes-hero-btn:hover {
   background-color: #fff;

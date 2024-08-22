@@ -8,18 +8,18 @@
   align-items: center;
   transition-property: background-color;
   transition-duration: 250ms;
-  transition-timing-function: var(--transition);
+  transition-timing-function: $transition;
 }
 .websit-icons-list {
   display: flex;
   gap: 10px;
 }
 .websit-icons-link:hover {
-  background-color: var(--colorHover);
+  background-color: $colorHover;
 }
 
 .website-icon {
   height: 22px;
   width: 22px;
-  fill: var(--secondtColor);
+  fill: $secondtColor;
 }

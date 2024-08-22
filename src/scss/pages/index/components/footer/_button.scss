@@ -4,14 +4,14 @@
   gap: 10px;
   padding: 10px 28px;
   border-radius: 4px;
-  background-color: var(--colorHover);
+  background-color: $colorHover;
   font-weight: 700;
   font-size: 16px;
   line-height: 187%;
   letter-spacing: 0.06em;
   text-align: center;
-  color: var(--secondtColor);
-  transition: background-color 250ms var(--transition);
+  color: $secondtColor;
+  transition: background-color 250ms $transition;
 }
 .subscribes-button:hover {
   background-color: #0871c6;
@@ -19,7 +19,7 @@
 .subscribes-icon {
   width: 24px;
   height: 24px;
-  fill: var(--secondtColor);
+  fill: $secondtColor;
 }
 .subscribes-button::after {
   content: "";

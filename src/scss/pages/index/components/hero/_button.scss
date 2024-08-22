@@ -6,11 +6,11 @@
   letter-spacing: 0.06em;
   text-align: center;
   padding: 10px 32px;
-  color: var(--secondtColor);
-  background-color: var(--colorHover);
+  color: $secondtColor;
+  background-color: $colorHover;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   transition-property: background-color, transform;
-  transition: 250ms var(--transition);
+  transition: 250ms $transition;
   transform: scale(1);
 }
 .hero-button:hover {

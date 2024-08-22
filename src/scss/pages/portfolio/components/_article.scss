@@ -1,5 +1,5 @@
 .prodjekt-titel {
-  color: var(--textcolor);
+  color: $textcolor;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -10,13 +10,13 @@
   font-size: 16px;
   line-height: 187%;
   letter-spacing: 0.03em;
-  color: var(--firstColor);
+  color: $firstColor;
 }
 .prodjekt {
   border: 1px solid #eee;
   transition-property: box-shadow;
   transition-duration: 250ms;
-  transition-timing-function: var(--transition);
+  transition-timing-function: $transition;
 }
 .prodjekt:hover {
   box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
@@ -25,10 +25,10 @@
 .overlay-text {
   padding: 64px 27px;
   background-color: rgba(33, 150, 243, 0.9);
-  color: var(--adventejisbgcolor);
+  color: $adventejisbgcolor;
   transform: translateY(+100%);
   position: absolute;
-  transition: transform 250ms var(--transition);
+  transition: transform 250ms $transition;
   font-size: 18px;
   line-height: 156%;
   letter-spacing: 0.03em;

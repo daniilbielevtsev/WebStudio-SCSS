@@ -1,14 +1,14 @@
 .footer-link {
   line-height: 1.71429;
   letter-spacing: 0.03em;
-  color: var(--colorOpacity);
+  color: $colorOpacity;
   padding-bottom: 10px;
 }
 .adres {
   font-style: normal;
   line-height: 171%;
   letter-spacing: 0.03em;
-  color: var(--secondtColor);
+  color: $secondtColor;
 }
 .container-info {
   margin-right: 70px;

@@ -17,10 +17,10 @@
   height: 25px;
   transition-property: fill;
   transition-duration: 250ms;
-  transition-timing-function: var(--transition);
+  transition-timing-function: $transition;
 }
 .scrol-top:hover .scrol-top-icon {
-  fill: var(--colorHover);
+  fill: $colorHover;
 }
 .scrol-top:hover {
   background-color: #ffffff21;
