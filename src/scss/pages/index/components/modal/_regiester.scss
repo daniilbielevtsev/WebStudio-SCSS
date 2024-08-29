@@ -1,15 +1,15 @@
 .regidter-name:focus-within {
-  fill: var(--colorHover);
+  fill: $colorHover;
 }
 .regidter-name:hover,
 .regidter-name:focus-within {
-  border: 1px solid var(--colorHover);
+  border: 1px solid $colorHover;
   border-radius: 4px;
 }
 .form-label {
   font-size: 12px;
   letter-spacing: 0.01em;
-  color: var(--firstColor);
+  color: $firstColor;
 }
 .regidter-name {
   position: relative;
@@ -23,7 +23,7 @@
   border-radius: 4px;
   transition-property: background-color, border;
   transition-duration: 250ms;
-  transition-timing-function: var(--transition);
+  transition-timing-function: $transition;
 }
 .modal-regidter:last-of-type {
   margin-bottom: 20px;

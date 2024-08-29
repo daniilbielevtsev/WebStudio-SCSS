@@ -1,16 +1,16 @@
-.nav-link {
+.menu__link {
   font-weight: 500;
   letter-spacing: 0.02em;
-  color: $textcolor;
+  color: $textColor;
   position: relative;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: $transition;
 }
-.nav-link:hover {
+.menu__link:hover {
   color: $colorHover;
 }
-.nav-link::after {
+.menu__link::after {
   position: absolute;
   content: "";
   width: 100%;
@@ -22,8 +22,8 @@
   transform: scaleX(0);
   transition: transform 250ms $transition;
 }
-.link-active::after,
-.nav-link:hover::after {
+.menu__link--active::after,
+.menu__link:hover::after {
   transform: scaleX(1);
 }
 .contakts-link {

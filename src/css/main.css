@@ -1,17 +1,3 @@
-:root {
-  --firstColor: #757575;
-  --secondtColor: #ffffff;
-  --colorHover: #2196f3;
-  --colorDefault: #212121;
-  --colorOpacity: rgba(255, 255, 255, 0.6);
-  --textcolor: #000000;
-  --BGcolor: #2f303a;
-  --bgsecendory: #f5f4fa;
-  --icons-color: #afb1b8;
-  --adventejisbgcolor: #f5f4fa;
-  --transition: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 * {
   margin: 0px;
   padding: 0px;
@@ -113,25 +99,25 @@ body {
   line-height: 162%;
   letter-spacing: 0.03em;
   text-align: center;
-  color: var(--colorDefault);
+  color: #212121;
   border-radius: 4px;
   padding: 6px 22px;
-  background: var(--bgsecendory);
+  background: #f5f4fa;
   transition-property: background-color, box-shadow;
   transition-duration: 250ms;
-  transition-timing-function: var(--transition);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter-button:hover {
   border-radius: 4px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
-  background-color: var(--colorHover);
+  background-color: #2196f3;
   padding: 6px 25px;
-  color: var(--secondtColor);
+  color: #ffffff;
 }
 
 .prodjekt-titel {
-  color: var(--textcolor);
+  color: #000000;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -143,14 +129,14 @@ body {
   font-size: 16px;
   line-height: 187%;
   letter-spacing: 0.03em;
-  color: var(--firstColor);
+  color: #757575;
 }
 
 .prodjekt {
   border: 1px solid #eee;
   transition-property: box-shadow;
   transition-duration: 250ms;
-  transition-timing-function: var(--transition);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .prodjekt:hover {
@@ -160,10 +146,10 @@ body {
 .overlay-text {
   padding: 64px 27px;
   background-color: rgba(33, 150, 243, 0.9);
-  color: var(--adventejisbgcolor);
+  color: #f5f4fa;
   transform: translateY(100%);
   position: absolute;
-  transition: transform 250ms var(--transition);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-size: 18px;
   line-height: 156%;
   letter-spacing: 0.03em;
@@ -251,13 +237,13 @@ body {
   padding-right: 15px;
 }
 
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.nav-list {
+.nav__list {
   display: flex;
   align-items: center;
   gap: 50px;
@@ -279,19 +265,22 @@ body {
   gap: 50px;
 }
 
-.header-logo {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
+}
+
+.logo__header--active {
   color: #2196f3;
 }
 
-.logo-part-header {
+.logo__header__part {
   color: #000000;
 }
 
-.nav-link {
+.menu__link {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: #000000;
@@ -301,11 +290,11 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-link:hover {
+.menu__link:hover {
   color: #2196f3;
 }
 
-.nav-link::after {
+.menu__link::after {
   position: absolute;
   content: "";
   width: 100%;
@@ -318,8 +307,8 @@ body {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-active::after,
-.nav-link:hover::after {
+.menu__link--active::after,
+.menu__link:hover::after {
   transform: scaleX(1);
 }
 
@@ -477,15 +466,6 @@ body {
   padding-bottom: 94px;
 }
 
-.work-titel {
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: #212121;
-}
-
 .work-photo {
   display: flex;
   justify-content: center;
@@ -533,7 +513,7 @@ body {
   gap: 30px;
 }
 
-.team-titel {
+.section__titel {
   font-weight: 700;
   font-size: 36px;
   letter-spacing: 0.03em;
@@ -644,15 +624,6 @@ body {
   gap: 30px;
 }
 
-.klients-titel {
-  margin-bottom: 50px;
-  font-weight: 700;
-  font-size: 36px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: #212121;
-}
-
 .klients-link {
   border: 1px solid #afb1b8;
   border-radius: 4px;
@@ -735,14 +706,11 @@ body {
   display: flex;
 }
 
-.footer-logo {
-  font-weight: 700;
-  font-size: 26px;
-  letter-spacing: 0.03em;
+.logo__footer--active {
   color: #2196f3;
 }
 
-.logo-part {
+.logo__footer__part {
   color: #ffffff;
 }
 
@@ -904,14 +872,14 @@ body {
 
 .modal {
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
-  background: var(--secondtColor);
+  background: #ffffff;
   border-radius: 4px;
   padding: 40px 40px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  background-color: var(--secondtColor);
+  background-color: #ffffff;
   transition-property: transform;
   transition-duration: 200ms;
   transition-timing-function: linear;
@@ -926,7 +894,7 @@ body {
   font-size: 20px;
   letter-spacing: 0.03em;
   text-align: center;
-  color: var(--colorDefault);
+  color: #212121;
   margin-bottom: 12px;
 }
 
@@ -944,19 +912,19 @@ body {
 }
 
 .regidter-name:focus-within {
-  fill: var(--colorHover);
+  fill: #2196f3;
 }
 
 .regidter-name:hover,
 .regidter-name:focus-within {
-  border: 1px solid var(--colorHover);
+  border: 1px solid #2196f3;
   border-radius: 4px;
 }
 
 .form-label {
   font-size: 12px;
   letter-spacing: 0.01em;
-  color: var(--firstColor);
+  color: #757575;
 }
 
 .regidter-name {
@@ -971,7 +939,7 @@ body {
   border-radius: 4px;
   transition-property: background-color, border;
   transition-duration: 250ms;
-  transition-timing-function: var(--transition);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-regidter:last-of-type {
@@ -983,11 +951,11 @@ body {
   height: 18px;
   transition-property: fill;
   transition-duration: 250ms;
-  transition-timing-function: var(--transition);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .regidter-name:hover .person-icon {
-  fill: var(--colorHover);
+  fill: #2196f3;
 }
 
 .agree-icon {
@@ -1001,7 +969,7 @@ body {
   gap: 8px;
   line-height: 171%;
   letter-spacing: 0.03em;
-  color: var(--firstColor);
+  color: #757575;
   margin-bottom: 30px;
 }
 
@@ -1022,7 +990,7 @@ body {
 
 .messeg-container:hover,
 .messeg-container:focus-within {
-  border: 1px solid var(--colorHover);
+  border: 1px solid #2196f3;
   border-radius: 4px;
 }
 

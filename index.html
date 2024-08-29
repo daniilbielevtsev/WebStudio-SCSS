@@ -29,24 +29,28 @@
   </head>
   <body>
     <header class="header">
-      <div class="container header-container">
-        <a class="header-logo animate__animated animate__slideInLeft" href="#"
+      <div class="container header__container">
+        <a
+          class="logo logo__header--active animate__animated animate__slideInLeft"
+          href="#"
           >Web<span
-            class="logo-part-header animate__animated animate__slideInLeft"
+            class="logo__header__part animate__animated animate__slideInLeft"
             >Studio</span
           ></a
         >
-        <nav class="header-nav">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a class="nav-link link-active" href="#">Студія</a>
+        <nav class="menu">
+          <ul class="nav__list">
+            <li class="menu__item">
+              <a class="menu__link menu__link--active" href="#">Студія</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./src/pages/portfolio.html"
+            <li class="menu__item">
+              <a class="menu__link" href="./src/pages/portfolio.html"
                 >Поротфолі</a
               >
             </li>
-            <li class="nav-item"><a class="nav-link" href="#">Контакти</a></li>
+            <li class="menu__item">
+              <a class="menu__link" href="#">Контакти</a>
+            </li>
           </ul>
         </nav>
         <ul class="header-contakts animate__animated animate__slideInRight">
@@ -195,7 +199,7 @@
       </section>
       <section class="work" data-aos="fade-left">
         <div class="container">
-          <h2 class="work-titel">Чим ми займаємося</h2>
+          <h2 class="section__titel">Чим ми займаємося</h2>
           <div class="work-photo">
             <article class="work-label">
               <img class="img" src="./src/img/work-tablet.webp" alt="tablet" />
@@ -218,7 +222,7 @@
       </section>
       <section class="team" data-aos="fade-right">
         <div class="container">
-          <h2 class="team-titel">Наша команда</h2>
+          <h2 class="section__titel">Наша команда</h2>
           <div class="teammets">
             <article class="teammete">
               <img
@@ -410,7 +414,7 @@
           </svg>
         </a>
         <div class="container">
-          <h2 class="klients-titel">Постійні клієнти</h2>
+          <h2 class="section__titel">Постійні клієнти</h2>
           <ul class="klients-list">
             <li class="klients-item">
               <a class="klients-link" href="#">
@@ -463,8 +467,8 @@
     <footer class="footer">
       <div class="container footer-container">
         <div class="container-info">
-          <a class="footer-logo" href="#"
-            >Web<span class="logo-part">Studio</span></a
+          <a class="logo logo__footer--active" href="#"
+            >Web<span class="logo__footer__part">Studio</span></a
           >
           <ul class="footer-list">
             <li class="footer-item adres">
