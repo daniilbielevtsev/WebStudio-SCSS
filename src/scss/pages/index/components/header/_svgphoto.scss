@@ -1,22 +1,14 @@
-.contakts-item:hover .mailto {
+.contakts__item:hover .contakts__photo--mailto {
   fill: $colorHover;
 }
-.mailto {
+.contakts__photo--mailto {
   width: 16px;
   height: 12px;
-  fill: $firstColor;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: $transition;
 }
-.phone {
+.contakts__photo--phone {
   width: 10px;
   height: 16px;
-  fill: $firstColor;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: $transition;
 }
-.contakts-item:hover .phone {
+.contakts__item:hover .contakts__photo--phone {
   fill: $colorHover;
 }

@@ -1,4 +1,4 @@
-.advantages-item::before {
+.advantages__item::before {
   content: "";
   display: block;
   height: 120px;
@@ -8,15 +8,15 @@
   background-color: $adventejisbgcolor;
   margin-bottom: 30px;
 }
-.advantages-item-1::before {
+.advantages__item--1::before {
   background-image: url(../img/adventedjis-firstphoto.svg);
 }
-.advantages-item-2::before {
+.advantages__item--2::before {
   background-image: url(../img/adventejis-clock.svg);
 }
-.advantages-item-3::before {
+.advantages__item--3::before {
   background-image: url(../img/adventejis-diagram.svg);
 }
-.advantages-item-4:before {
+.advantages__item--4:before {
   background-image: url(../img/adventejis-astronaut.svg);
 }

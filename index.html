@@ -41,30 +41,34 @@
         <nav class="menu">
           <ul class="nav__list">
             <li class="menu__item">
-              <a class="menu__link menu__link--active" href="#">Студія</a>
+              <a class="menu__link menu__link--active menu__link-mix" href="#"
+                >Студія</a
+              >
             </li>
             <li class="menu__item">
-              <a class="menu__link" href="./src/pages/portfolio.html"
+              <a
+                class="menu__link menu__link-mix"
+                href="./src/pages/portfolio.html"
                 >Поротфолі</a
               >
             </li>
             <li class="menu__item">
-              <a class="menu__link" href="#">Контакти</a>
+              <a class="menu__link menu__link-mix" href="#">Контакти</a>
             </li>
           </ul>
         </nav>
-        <ul class="header-contakts animate__animated animate__slideInRight">
-          <li class="contakts-item">
-            <a class="contakts-link" href="mailto:info@devstudio.com">
-              <svg class="mailto">
+        <ul class="contakts animate__animated animate__slideInRight">
+          <li class="contakts__item">
+            <a class="contakts__link" href="mailto:info@devstudio.com">
+              <svg class="contakts__photo contakts__photo--mailto">
                 <use href="./src/img/symbol-defs.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="contakts-item">
-            <a class="contakts-link" href="tel:+380961111111">
-              <svg class="phone">
+          <li class="contakts__item">
+            <a class="contakts__link" href="tel:+380961111111">
+              <svg class="contakts__photo contakts__photo--phone">
                 <use href="./src/img/symbol-defs.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -75,11 +79,13 @@
     </header>
     <main class="main">
       <section class="hero" id="scrol-top">
-        <div class="container hero-container">
-          <h1 class="hero-titel animate__animated animate__bounceInDown">
+        <div class="container hero__container">
+          <h1 class="hero__titel animate__animated animate__bounceInDown">
             ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШЕГО БІЗНЕСУ
           </h1>
-          <button class="hero-button" data-modal-open>замовити послугу</button>
+          <button class="hero__button button" data-modal-open>
+            замовити послугу
+          </button>
           <div class="backdrob is-hidden" data-modal>
             <div class="modal">
               <button class="modal-colse-button" data-modal-close>
@@ -158,37 +164,37 @@
       </section>
       <section class="adventeges" data-aos="fade-right">
         <div class="container">
-          <ul class="advantages-list">
-            <li class="advantages-item advantages-item-1">
-              <h2 class="adventeges-titel">УВАГА ДО ДЕТАЛЕЙ</h2>
-              <div class="adventeges-container">
-                <p class="adventeges-text">
+          <ul class="advantages__list">
+            <li class="advantages__item advantages__item--1">
+              <h2 class="adventeges__titel">УВАГА ДО ДЕТАЛЕЙ</h2>
+              <div class="adventeges__container">
+                <p class="adventeges__text">
                   Ідейні міркування, і навіть початок повсякденної роботи з
                   формування позиції.
                 </p>
               </div>
             </li>
-            <li class="advantages-item advantages-item-2">
-              <h2 class="adventeges-titel">ПУНКТУАЛЬНІСТЬ</h2>
-              <div class="adventeges-container">
-                <p class="adventeges-text">
+            <li class="advantages__item advantages__item--2">
+              <h2 class="adventeges__titel">ПУНКТУАЛЬНІСТЬ</h2>
+              <div class="adventeges__container">
+                <p class="adventeges__text">
                   Завдання організації, особливо рамки і місце навчання кадрів
                   тягне у себе.
                 </p>
               </div>
             </li>
-            <li class="advantages-item advantages-item-3">
-              <h2 class="adventeges-titel">ПЛАНУВАННЯ</h2>
-              <div class="adventeges-container">
-                <p class="adventeges-text">
+            <li class="advantages__item advantages__item--3">
+              <h2 class="adventeges__titel">ПЛАНУВАННЯ</h2>
+              <div class="adventeges__container">
+                <p class="adventeges__text">
                   Так само консультація з широким активом значною мірою зумовлює
                 </p>
               </div>
             </li>
-            <li class="advantages-item advantages-item-4">
-              <h2 class="adventeges-titel">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
-              <div class="adventeges-container">
-                <p class="adventeges-text">
+            <li class="advantages__item advantages__item--4">
+              <h2 class="adventeges__titel">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
+              <div class="adventeges__container">
+                <p class="adventeges__text">
                   Значимість цих проблем настільки очевидна, що реалізація
                   планових завдань.
                 </p>
@@ -199,30 +205,38 @@
       </section>
       <section class="work" data-aos="fade-left">
         <div class="container">
-          <h2 class="section__titel">Чим ми займаємося</h2>
-          <div class="work-photo">
-            <article class="work-label">
-              <img class="img" src="./src/img/work-tablet.webp" alt="tablet" />
-              <p class="label">Десктопні додатки</p>
-            </article>
-            <article class="work-label">
+          <h2 class="section__titel work__titel">Чим ми займаємося</h2>
+          <div class="work__photo">
+            <article class="work__article">
               <img
-                class="img"
+                class="work__img"
+                src="./src/img/work-tablet.webp"
+                alt="tablet"
+              />
+              <p class="work__label">Десктопні додатки</p>
+            </article>
+            <article class="work__article">
+              <img
+                class="work__img"
                 src="./src/img/work-notebook.webp"
                 alt="notbook"
               />
-              <p class="label">Мобільні додатки</p>
+              <p class="work__label">Мобільні додатки</p>
             </article>
-            <article class="work-label">
-              <img class="img" src="./src/img/work-dasktop.webp" alt="work" />
-              <p class="label">Дизайнерські рішення</p>
+            <article class="work__article">
+              <img
+                class="work__img"
+                src="./src/img/work-dasktop.webp"
+                alt="work"
+              />
+              <p class="work__label">Дизайнерські рішення</p>
             </article>
           </div>
         </div>
       </section>
       <section class="team" data-aos="fade-right">
         <div class="container">
-          <h2 class="section__titel">Наша команда</h2>
+          <h2 class="section__titel team__titel">Наша команда</h2>
           <div class="teammets">
             <article class="teammete">
               <img
@@ -414,7 +428,7 @@
           </svg>
         </a>
         <div class="container">
-          <h2 class="section__titel">Постійні клієнти</h2>
+          <h2 class="section__titel klients__titel">Постійні клієнти</h2>
           <ul class="klients-list">
             <li class="klients-item">
               <a class="klients-link" href="#">

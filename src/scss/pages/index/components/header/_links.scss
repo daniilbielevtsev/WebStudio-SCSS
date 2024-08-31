@@ -1,11 +1,13 @@
 .menu__link {
   font-weight: 500;
   letter-spacing: 0.02em;
-  color: $textColor;
-  position: relative;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: $transition;
+}
+.menu__link-mix {
+  color: $textColor;
+  position: relative;
 }
 .menu__link:hover {
   color: $colorHover;
@@ -26,7 +28,7 @@
 .menu__link:hover::after {
   transform: scaleX(1);
 }
-.contakts-link {
+.contakts__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,6 +40,6 @@
   transition-duration: 250ms;
   transition-timing-function: $transition;
 }
-.contakts-item:hover .contakts-link {
+.contakts__item:hover .contakts__link {
   color: $colorHover;
 }
