@@ -1,19 +1,20 @@
-.partner-list {
+.partner__list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
   margin-top: 28px;
 }
-.partner-item:hover .partner-icon {
+.partner__item:hover .partner__icon {
   fill: $bgsecendory;
 }
-.partner-item {
+.partner__item {
   border-radius: 50%;
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: $transition;
 }
+
 .icon-container {
   width: 44px;
   height: 44px;
@@ -21,7 +22,7 @@
   justify-content: center;
   align-items: center;
 }
-.partner-item:hover {
+.partner__item:hover {
   display: flex;
   justify-content: center;
   align-items: center;

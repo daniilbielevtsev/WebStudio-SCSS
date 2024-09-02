@@ -1,4 +1,4 @@
-.websit-icons-link {
+.website__link {
   background-color: rgba(255, 255, 255, 0.1);
   height: 44px;
   width: 44px;
@@ -10,15 +10,15 @@
   transition-duration: 250ms;
   transition-timing-function: $transition;
 }
-.websit-icons-list {
+.website__list {
   display: flex;
   gap: 10px;
 }
-.websit-icons-link:hover {
+.website__link:hover {
   background-color: $colorHover;
 }
 
-.website-icon {
+.website__icon {
   height: 22px;
   width: 22px;
   fill: $secondtColor;

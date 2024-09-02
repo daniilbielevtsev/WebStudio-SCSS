@@ -1,4 +1,4 @@
-.modal-colse-button {
+.modal__colse__button {
   position: absolute;
   right: 8px;
   top: 8px;
@@ -11,7 +11,7 @@
   align-items: center;
   background-color: $secondtColor;
 }
-.close-icon {
+.modal__close__icon {
   width: 18px;
   height: 18px;
   fill: $textColor;
@@ -19,7 +19,7 @@
   transition-duration: 250ms;
   transition-timing-function: $transition;
 }
-.modal-colse-button:hover .close-icon {
+.modal__colse__button:hover .modal__close__icon {
   fill: $colorHover;
   transform: scale(1.2);
 }
@@ -30,21 +30,17 @@
   align-items: center;
   justify-content: center;
 }
-.subscribes-hero-btn {
+.subscribes__hero__btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 187%;
   letter-spacing: 0.06em;
   text-align: center;
-  color: $secondtColor;
-  padding: 10px 52px;
-  background-color: $colorHover;
-  border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #2196f3;
+
   transition: background-color 250ms $transition;
 }
-.subscribes-hero-btn:hover {
+.subscribes__hero__btn:hover {
   background-color: #fff;
   color: #2196f3;
   border: 1px solid #2196f3;

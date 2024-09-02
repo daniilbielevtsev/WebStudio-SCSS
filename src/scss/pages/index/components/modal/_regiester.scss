@@ -1,17 +1,17 @@
-.regidter-name:focus-within {
+.form__name:focus-within {
   fill: $colorHover;
 }
-.regidter-name:hover,
-.regidter-name:focus-within {
+.form__name:hover,
+.form__name:focus-within {
   border: 1px solid $colorHover;
   border-radius: 4px;
 }
-.form-label {
+.form__label {
   font-size: 12px;
   letter-spacing: 0.01em;
   color: $firstColor;
 }
-.regidter-name {
+.form__name {
   position: relative;
   display: flex;
   align-items: center;
@@ -25,6 +25,6 @@
   transition-duration: 250ms;
   transition-timing-function: $transition;
 }
-.modal-regidter:last-of-type {
+.form__group:last-of-type {
   margin-bottom: 20px;
 }

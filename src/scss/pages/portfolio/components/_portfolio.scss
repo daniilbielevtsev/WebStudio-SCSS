@@ -1,14 +1,14 @@
 .portfolio {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
-  .portfolio-container {
-    margin: 20px 24px;
-  }
-  .portfolio-projekts {
-    row-gap: 30px;
-    column-gap: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.prodjekt__container {
+  margin: 20px 24px;
+}
+.projekts {
+  row-gap: 30px;
+  column-gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

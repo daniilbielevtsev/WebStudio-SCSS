@@ -1,4 +1,4 @@
-.partner-icon {
+.partner__icon {
   width: 20px;
   height: 20px;
   fill: $icons-color;
@@ -8,6 +8,6 @@
   transition-duration: fill;
   transition: 250ms $transition;
 }
-.partner-icon:hover {
+.partner__icon:hover {
   fill: $secondtColor;
 }

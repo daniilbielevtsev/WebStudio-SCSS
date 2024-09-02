@@ -1,11 +1,11 @@
-.portfolio-filter {
+.filter {
   display: flex;
   justify-content: center;
   gap: 8px;
   margin-bottom: 34px;
   height: 54px;
 }
-.filter-button {
+.filter__button {
   font-weight: 500;
   font-size: 16px;
   line-height: 162%;
@@ -19,7 +19,7 @@
   transition-duration: 250ms;
   transition-timing-function: $transition;
 }
-.filter-button:hover {
+.filter__button:hover {
   border-radius: 4px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08),
     0 3px 1px 0 rgba(0, 0, 0, 0.1);

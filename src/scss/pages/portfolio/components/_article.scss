@@ -1,28 +1,28 @@
-.prodjekt-titel {
+.prodjekt__titel {
   color: $textColor;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.prodjekt-text {
+.prodjekt__text {
   font-weight: 400;
   font-size: 16px;
   line-height: 187%;
   letter-spacing: 0.03em;
   color: $firstColor;
 }
-.prodjekt {
+.prodjekt__article {
   border: 1px solid #eee;
   transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: $transition;
 }
-.prodjekt:hover {
+.prodjekt__article:hover {
   box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
     0 1px 1px 0 rgba(0, 0, 0, 0.12);
 }
-.overlay-text {
+.overlay__text {
   padding: 64px 27px;
   background-color: rgba(33, 150, 243, 0.9);
   color: $adventejisbgcolor;
@@ -36,11 +36,11 @@
   justify-content: center;
   align-items: center;
 }
-.prodjekt:hover .overlay-figur .overlay-text {
+.prodjekt__article:hover .overlay__figur .overlay__text {
   top: 0;
   transform: translate(0);
 }
-.overlay-figur {
+.overlay__figur {
   position: relative;
   overflow: hidden;
 }

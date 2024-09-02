@@ -4,12 +4,22 @@ body {
   font-size: 14px;
   color: var(--icons-color);
 }
+// header
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: $colorHover;
+}
+// contackt
 .contakts__photo {
   fill: $firstColor;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: $transition;
 }
+// buttons
 .button {
   background-color: $colorHover;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -20,6 +30,7 @@ body {
   padding: 10px 32px;
   border-radius: 4px;
 }
+// titels
 .section__titel {
   font-weight: 700;
   font-size: 36px;
