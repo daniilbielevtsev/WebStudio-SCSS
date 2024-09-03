@@ -364,6 +364,7 @@ html {
 
 .advantages__item {
   flex-basis: calc((100% - 90px) / 4);
+  width: 270px;
 }
 
 .adventeges__titel {
@@ -388,6 +389,7 @@ html {
   background-position: center;
   background-color: #f5f4fa;
   margin-bottom: 30px;
+  width: 270px;
 }
 
 .advantages__item--1::before {
