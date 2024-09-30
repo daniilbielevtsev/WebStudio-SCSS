@@ -1,8 +1,3 @@
-.subscribes__container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
 .subscribes__container__titel {
   color: $secondtColor;
   font-weight: 700;
@@ -12,4 +7,17 @@
 .subscribes {
   display: flex;
   gap: 12px;
+  margin-top: 20px;
+}
+@media (max-width: 1200px) {
+  .subscribes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer__button__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

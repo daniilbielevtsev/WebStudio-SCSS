@@ -1,9 +1,13 @@
 .portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 .prodjekt__container {
-  margin: 20px 24px;
+  padding: 20px 24px;
 }
 .projekts {
   row-gap: 30px;
@@ -11,4 +15,40 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+@media (max-width: 1200px) {
+  .projekts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .prodjekt__article {
+    flex-basis: calc((100% - 60px) / 2);
+    width: 100%;
+  }
+  .prodjekt__container {
+    padding-top: 49px;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 79px;
+  }
+}
+@media (max-width: 768px) {
+  .projekts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .prodjekt__article {
+    flex-basis: calc((100% - 60px) / 1);
+    width: 100%;
+  }
+  .prodjekt__container {
+    padding-top: 49px;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-bottom: 79px;
+  }
 }

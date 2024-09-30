@@ -11,3 +11,20 @@
   transition-timing-function: $transition;
   flex-basis: calc((100% - 150px) / 6);
 }
+@media (max-width: 1200px) {
+  .klients__link {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc((100% - 60px) / 3);
+    border: 1px solid $icons-color;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: border;
+    transition-duration: 250ms;
+    transition-timing-function: $transition;
+  }
+}

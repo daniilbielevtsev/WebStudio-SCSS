@@ -9,3 +9,16 @@
 .footer__container {
   display: flex;
 }
+@media (max-width: 1200px) {
+  .footer__container {
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 160px;
+    row-gap: 60px;
+    align-items: center;
+    text-align: center;
+  }
+  .subscribes__button {
+    width: 200px;
+  }
+}

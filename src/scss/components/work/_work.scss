@@ -2,3 +2,8 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
+@media (max-width: 1200px) {
+  .work {
+    display: none;
+  }
+}

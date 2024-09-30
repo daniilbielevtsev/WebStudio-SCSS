@@ -13,3 +13,15 @@
   line-height: 1.71429;
   color: $firstColor;
 }
+@media (max-width: 1200px) {
+  .advantages__item {
+    flex-basis: calc((100% - 90px) / 2);
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .advantages__item {
+    flex-basis: calc((100% - 90px) / 1);
+    width: 100%;
+  }
+}

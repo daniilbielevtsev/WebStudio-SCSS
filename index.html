@@ -36,7 +36,7 @@
             >Studio</span
           ></a
         >
-        <nav class="menu">
+        <nav class="menu" data-menu>
           <ul class="nav__list">
             <li class="menu__item">
               <a class="menu__link menu__link--active menu__link-mix" href="#"
@@ -53,6 +53,30 @@
             <li class="menu__item">
               <a class="menu__link menu__link-mix" href="#">Контакти</a>
             </li>
+          </ul>
+          <ul class="contakts__list animate__animated animate__slideInRight">
+            <li class="contakts__item">
+              <a class="contakts__link" href="mailto:info@devstudio.com">
+                <svg class="contakts__photo contakts__photo--mailto">
+                  <use href="./src/img/symbol-defs.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com</a
+              >
+            </li>
+            <li class="contakts__item">
+              <a class="contakts__link" href="tel:+380961111111">
+                <svg class="contakts__photo contakts__photo--phone">
+                  <use href="./src/img/symbol-defs.svg#icon-smartphone"></use>
+                </svg>
+                +38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+          <ul class="sublist">
+            <li class="subitem"><a href="#" class="sublink">Instagram</a></li>
+            <li class="subitem">|<a href="#" class="sublink">Twitter</a></li>
+            <li class="subitem">|<a href="#" class="sublink">Facebook</a></li>
+            <li class="subitem">|<a href="#" class="sublink">LinkedIn</a></li>
           </ul>
         </nav>
         <ul class="contakts animate__animated animate__slideInRight">
@@ -73,6 +97,9 @@
             >
           </li>
         </ul>
+        <button class="header__menu" type="button" data-menu-button>
+          <span class="header__menu__icon"></span>
+        </button>
       </div>
     </header>
     <main class="main">
@@ -554,7 +581,10 @@
               placeholder="E-mail"
               required
             />
-            <button class="button subscribes__button">Підписатися</button>
+
+            <div class="footer__button__container">
+              <button class="button subscribes__button">Підписатися</button>
+            </div>
           </div>
         </form>
       </div>
@@ -565,5 +595,6 @@
     <script>
       AOS.init();
     </script>
+    <script src="./src/js/mobile-menu.js"></script>
   </body>
 </html>

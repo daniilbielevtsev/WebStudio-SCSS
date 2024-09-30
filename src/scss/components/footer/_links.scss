@@ -13,3 +13,8 @@
 .info {
   margin-right: 70px;
 }
+@media (max-width: 1200px) {
+  .info {
+    margin-right: 0px;
+  }
+}

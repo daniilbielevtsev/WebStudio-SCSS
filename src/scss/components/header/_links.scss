@@ -43,3 +43,14 @@
 .contakts__item:hover .contakts__link {
   color: $colorHover;
 }
+.menu__link--active::after,
+.menu__link:hover::after {
+  transform: scaleX(0);
+}
+
+@media (max-width: 1200px) {
+  .menu__link--active::after,
+  .menu__link:hover::after {
+    transform: scaleX(0);
+  }
+}
