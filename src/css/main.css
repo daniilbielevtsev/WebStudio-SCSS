@@ -1126,7 +1126,7 @@ html {
 
 @media (max-width: 768px) {
   .modal {
-    width: 80%;
+    width: 60%;
     height: 80%;
   }
 }
