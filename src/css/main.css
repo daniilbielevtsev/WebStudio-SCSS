@@ -152,6 +152,8 @@ html {
   .prodjekt__article {
     flex-basis: calc((100% - 60px) / 1);
     width: 100%;
+    flex-basis: 100%;
+    min-width: 320px;
   }
   .prodjekt__container {
     padding-top: 49px;
@@ -243,6 +245,19 @@ html {
   overflow: hidden;
 }
 
+@media (max-width: 768px) {
+  .projekts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .prodjekt__article {
+    flex-basis: calc((100% - 0px) / 1);
+    width: 100%;
+    flex-basis: 100%;
+  }
+}
 .header__container {
   display: flex;
   align-items: center;
@@ -388,8 +403,7 @@ html {
   }
   .contakts__list {
     position: absolute;
-    display: block;
-    display: flex;
+    display: none;
     flex-direction: column-reverse;
     align-items: start;
     gap: 30px;
@@ -397,7 +411,7 @@ html {
     left: 40px;
   }
   .sublist {
-    display: flex;
+    display: none;
     align-items: center;
     gap: 20px;
     position: absolute;
@@ -578,8 +592,7 @@ html {
 }
 @media (max-width: 768px) {
   .advantages__item {
-    flex-basis: calc((100% - 90px) / 1);
-    width: 100%;
+    flex-basis: 100%;
   }
 }
 .advantages__item::before {
@@ -691,7 +704,7 @@ html {
 }
 @media (max-width: 768px) {
   .team__article {
-    flex-basis: calc((100% - 90px) / 1);
+    flex-basis: 100%;
   }
 }
 .team__photo {
@@ -1003,6 +1016,14 @@ html {
     align-items: center;
   }
 }
+@media (max-width: 768px) {
+  .subscribes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 319px;
+  }
+}
 .subscribes__input {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -1019,6 +1040,12 @@ html {
   color: rgba(255, 255, 255, 0.6);
 }
 
+@media (max-width: 768px) {
+  .subscribes__input {
+    flex-grow: 1;
+    width: 100%;
+  }
+}
 .subscribes__button {
   display: flex;
   align-items: center;

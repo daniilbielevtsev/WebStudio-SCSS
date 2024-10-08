@@ -21,7 +21,6 @@
 }
 @media (max-width: 768px) {
   .advantages__item {
-    flex-basis: calc((100% - 90px) / 1);
-    width: 100%;
+    flex-basis: 100%;
   }
 }

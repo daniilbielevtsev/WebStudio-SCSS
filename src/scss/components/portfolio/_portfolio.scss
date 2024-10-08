@@ -44,6 +44,8 @@
   .prodjekt__article {
     flex-basis: calc((100% - 60px) / 1);
     width: 100%;
+    flex-basis: 100%;
+    min-width: 320px;
   }
   .prodjekt__container {
     padding-top: 49px;

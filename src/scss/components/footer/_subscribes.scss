@@ -21,3 +21,11 @@
     align-items: center;
   }
 }
+@media (max-width: 768px) {
+  .subscribes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 319px;
+  }
+}
