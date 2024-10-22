@@ -18,6 +18,13 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!------------normolize.css----------------->
     <link
       rel="website icon"
@@ -36,8 +43,8 @@
             >Studio</span
           ></a
         >
-        <nav class="menu" data-menu>
-          <ul class="nav__list">
+        <nav class="menu menu__group" data-menu>
+          <ul class="nav__list group__list">
             <li class="menu__item">
               <a class="menu__link menu__link--active menu__link-mix" href="#"
                 >Студія</a
@@ -54,30 +61,34 @@
               <a class="menu__link menu__link-mix" href="#">Контакти</a>
             </li>
           </ul>
-          <ul class="contakts__list animate__animated animate__slideInRight">
-            <li class="contakts__item">
-              <a class="contakts__link" href="mailto:info@devstudio.com">
-                <svg class="contakts__photo contakts__photo--mailto">
-                  <use href="./src/img/symbol-defs.svg#icon-envelope"></use>
-                </svg>
-                info@devstudio.com</a
-              >
-            </li>
-            <li class="contakts__item">
-              <a class="contakts__link" href="tel:+380961111111">
-                <svg class="contakts__photo contakts__photo--phone">
-                  <use href="./src/img/symbol-defs.svg#icon-smartphone"></use>
-                </svg>
-                +38 096 111 11 11</a
-              >
-            </li>
-          </ul>
-          <ul class="sublist">
-            <li class="subitem"><a href="#" class="sublink">Instagram</a></li>
-            <li class="subitem">|<a href="#" class="sublink">Twitter</a></li>
-            <li class="subitem">|<a href="#" class="sublink">Facebook</a></li>
-            <li class="subitem">|<a href="#" class="sublink">LinkedIn</a></li>
-          </ul>
+          <div class="mobil__container">
+            <ul class="menu__mobile animate__animated animate__slideInRight">
+              <li class="contakts__item">
+                <a class="contakts__link" href="mailto:info@devstudio.com">
+                  info@devstudio.com</a
+                >
+              </li>
+              <li class="contakts__item">
+                <a class="contakts__link" href="tel:+380961111111">
+                  +38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+            <ul class="contacts__mobile">
+              <li class="mobuile__list">
+                <a href="#" class="mobile__link">Instagram</a>
+              </li>
+              <li class="mobuile__list">
+                <a href="#" class="mobile__link">Twitter</a>
+              </li>
+              <li class="mobuile__list">
+                <a href="#" class="mobile__link">Facebook</a>
+              </li>
+              <li class="mobuile__list">
+                <a href="#" class="mobile__link">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
         </nav>
         <ul class="contakts animate__animated animate__slideInRight">
           <li class="contakts__item">

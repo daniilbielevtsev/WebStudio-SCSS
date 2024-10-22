@@ -1,3 +1,9 @@
 .team__titel {
   margin-bottom: 50px;
 }
+@media (min-width: 320px) {
+  .team__titel {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+}

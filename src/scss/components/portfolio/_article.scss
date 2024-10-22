@@ -44,16 +44,3 @@
   position: relative;
   overflow: hidden;
 }
-@media (max-width: 768px) {
-  .projekts {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  .prodjekt__article {
-    flex-basis: calc((100% - 0px) / 1);
-    width: 100%;
-    flex-basis: 100%;
-  }
-}

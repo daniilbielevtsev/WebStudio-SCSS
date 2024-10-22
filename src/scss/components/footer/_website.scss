@@ -1,6 +1,3 @@
-.websites {
-  margin-right: 93px;
-}
 .website__titel {
   margin-bottom: 20px;
   color: $secondtColor;
@@ -9,8 +6,8 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   .websites {
-    margin-right: 0px;
+    margin-right: 93px;
   }
 }

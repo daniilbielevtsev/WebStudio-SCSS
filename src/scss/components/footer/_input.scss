@@ -13,9 +13,17 @@
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-@media (max-width: 768px) {
+@media (min-width: 320px) {
   .subscribes__input {
     flex-grow: 1;
     width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .subscribes__input {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    width: 358px;
   }
 }

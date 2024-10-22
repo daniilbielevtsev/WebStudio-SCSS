@@ -1,8 +1,9 @@
 .advantages__item {
-  flex-basis: calc((100% - 90px) / 4);
+  flex-basis: 100%;
   width: 270px;
 }
 .adventeges__titel {
+  text-align: center;
   color: $textColor;
   font-weight: 700;
   letter-spacing: 0.03em;
@@ -13,14 +14,30 @@
   line-height: 1.71429;
   color: $firstColor;
 }
-@media (max-width: 1200px) {
+// @media (max-width: 1200px) {
+//   .advantages__item {
+//     flex-basis: calc((100% - 90px) / 2);
+//     width: 100%;
+//   }
+// }
+// @media (max-width: 768px) {
+//   .advantages__item {
+//     flex-basis: 100%;
+//   }
+// }
+@media (min-width: 768px) {
   .advantages__item {
-    flex-basis: calc((100% - 90px) / 2);
-    width: 100%;
+    flex-basis: calc((100% - 30px) / 2);
+  }
+  .adventeges__titel {
+    text-align: start;
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 1200px) {
   .advantages__item {
-    flex-basis: 100%;
+    flex-basis: calc((100% - 90px) / 4);
+  }
+  .adventeges__titel {
+    text-align: start;
   }
 }

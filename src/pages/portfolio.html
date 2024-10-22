@@ -37,7 +37,7 @@
             >Studio</span
           ></a
         >
-        <nav class="menu">
+        <nav class="menu" data-menu>
           <ul class="nav__list">
             <li class="menu__item">
               <a class="menu__link menu__link-mix" href="../../index.html"
@@ -72,6 +72,9 @@
             >
           </li>
         </ul>
+        <button class="header__menu" type="button" data-menu-button>
+          <span class="header__menu__icon"></span>
+        </button>
       </div>
     </header>
     <main>
@@ -359,5 +362,6 @@
     <script>
       AOS.init();
     </script>
+    <script src="../../src/js/mobile-menu.js"></script>
   </body>
 </html>

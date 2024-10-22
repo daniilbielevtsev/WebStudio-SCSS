@@ -7,3 +7,13 @@
   text-align: center;
   color: $secondtColor;
 }
+@media (min-width: 320px) {
+  .hero {
+    padding-top: 118px;
+    padding-bottom: 118px;
+  }
+  .hero__titel {
+    max-width: 360px;
+    font-size: 26px;
+  }
+}

@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 a {
   text-decoration: none;
@@ -34,4 +35,7 @@ button {
 textarea {
   border: 0px;
   outline: none;
+}
+body {
+  overflow: scroll;
 }

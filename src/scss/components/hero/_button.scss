@@ -9,3 +9,10 @@
   background-color: #0871c6;
   transform: scale(1.1);
 }
+@media (min-width: 320px) {
+  .hero__button {
+    font-weight: 700;
+    font-size: 16px;
+    padding: 10px 24px;
+  }
+}

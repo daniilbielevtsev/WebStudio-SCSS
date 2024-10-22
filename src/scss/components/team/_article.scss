@@ -5,15 +5,15 @@
   background: $secondtColor;
   background-color: $secondtColor;
   padding-bottom: 30px;
-  flex-basis: calc((100% - 90px) / 4);
+  flex-basis: 100%;
 }
-@media (max-width: 1200px) {
+@media (min-width: 768px) {
   .team__article {
-    flex-basis: calc((100% - 90px) / 2);
+    flex-basis: calc((100% - 30px) / 2);
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 1200px) {
   .team__article {
-    flex-basis: 100%;
+    flex-basis: calc((100% - 90px) / 4);
   }
 }

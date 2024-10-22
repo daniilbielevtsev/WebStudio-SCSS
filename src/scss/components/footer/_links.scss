@@ -11,10 +11,10 @@
   color: $secondtColor;
 }
 .info {
-  margin-right: 70px;
+  margin-right: 0px;
 }
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
   .info {
-    margin-right: 0px;
+    margin-right: 70px;
   }
 }
