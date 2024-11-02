@@ -99,6 +99,10 @@ html {
   scroll-padding: 800px;
 }
 
+main {
+  overflow-x: hidden;
+}
+
 .container {
   max-width: 1200px;
   margin-left: auto;
@@ -293,6 +297,7 @@ html {
   align-items: center;
   transform: translateX(-100%);
   transition: transform 0.5s ease;
+  padding: 40px;
 }
 
 .menu.open {
@@ -369,6 +374,9 @@ html {
 }
 
 .menu__link {
+  font-size: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
   font-weight: 500;
   letter-spacing: 0.02em;
   transition-property: color;
@@ -377,8 +385,6 @@ html {
 }
 
 .nav__list {
-  margin-left: 40px;
-  margin-top: 40px;
   display: flex;
   flex-direction: column;
   gap: 35px;
@@ -416,6 +422,8 @@ html {
   align-items: center;
   justify-content: center;
   gap: 10px;
+  font-size: 34px;
+  letter-spacing: 0.02em;
   font-weight: 500;
   letter-spacing: 0.02em;
   color: #757575;
@@ -439,15 +447,29 @@ html {
   font-size: 18px;
   line-height: 122%;
   letter-spacing: 0.02em;
+  position: relative;
+}
+
+.mobile__link::after {
+  content: "";
+  position: absolute;
+  background-color: rgba(33, 33, 33, 0.2);
+  width: 1px;
+  height: 100%;
+  bottom: 0;
+  right: -5px;
+}
+
+.mobile__link--last::after {
+  display: none;
 }
 
 .contacts__mobile {
   display: flex;
   justify-content: center;
-  gap: 20px;
   align-items: center;
-  max-width: 356px;
-  margin-bottom: 40px;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .menu__mobile {
@@ -463,10 +485,6 @@ html {
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
-}
-
-.mobil__container {
-  margin-left: 40px;
 }
 
 .nav__link {

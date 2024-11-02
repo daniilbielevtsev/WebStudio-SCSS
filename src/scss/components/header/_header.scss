@@ -59,6 +59,7 @@
   align-items: center;
   transform: translateX(-100%);
   transition: transform 0.5s ease;
+  padding: 40px;
 }
 .menu.open {
   transform: translate(0);
@@ -66,14 +67,6 @@
 .contakts.open {
   transform: translate(0);
 }
-// .nav__list {
-//   position: absolute;
-//   top: 10;
-//   left: 10;
-//   display: flex;
-//   flex-direction: column;
-//   gap: 25px;
-// }
 .header__menu {
   display: block;
   z-index: 10;
