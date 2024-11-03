@@ -333,6 +333,7 @@ main {
     position: relative;
     background-color: rgba(250, 235, 215, 0);
     transform: translate(0);
+    padding: 0px;
   }
   .contakts {
     display: flex;
@@ -497,6 +498,16 @@ main {
 @media (min-width: 768px) {
   .menu__link::after {
     bottom: -38px;
+  }
+  .menu__link {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+  }
+  .contakts__link {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
   }
   .menu__link--active::after,
   .menu__link:hover::after {
@@ -1008,6 +1019,8 @@ main {
   .footer__container {
     display: flex;
     flex-wrap: nowrap;
+    -moz-column-gap: 0px;
+         column-gap: 0px;
   }
   .subscribes__button {
     padding: 10px 28px;
@@ -1042,6 +1055,15 @@ main {
   .info {
     margin-right: 70px;
   }
+  .info__link {
+    text-align: start;
+  }
+  .info__adres {
+    text-align: start;
+  }
+  .info__item {
+    text-align: start;
+  }
 }
 .website__titel {
   margin-bottom: 20px;
@@ -1055,6 +1077,9 @@ main {
 @media (min-width: 1200px) {
   .websites {
     margin-right: 93px;
+  }
+  .website__titel {
+    text-align: start;
   }
 }
 .website__link {
@@ -1119,9 +1144,10 @@ main {
     gap: 12px;
     text-align: center;
     text-align: start;
+    width: 570px;
   }
-  .footer__button__container {
-    display: block;
+  .subscribes__container__titel {
+    text-align: start;
   }
 }
 .subscribes__input {
@@ -1217,7 +1243,7 @@ main {
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
   background: #ffffff;
   border-radius: 4px;
-  padding: 40px 40px;
+  padding: 30px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1226,16 +1252,17 @@ main {
   transition-property: transform;
   transition-duration: 200ms;
   transition-timing-function: linear;
+  width: 90%;
 }
 
 .no-skroll {
   overflow: hidden;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 559px) {
   .modal {
-    width: 60%;
-    height: 80%;
+    padding: 40px;
+    width: 500px;
   }
 }
 .modal__titel {
@@ -1331,7 +1358,6 @@ main {
 .messeg {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  max-width: 448px;
   transition-property: border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1348,10 +1374,15 @@ main {
   resize: none;
   min-height: 96px;
   width: 100%;
-  max-width: 416px;
-  min-width: 416px;
+  max-width: 92%;
 }
 
+@media (min-width: 320px) {
+  .massage__text {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
 .modal__colse__button {
   position: absolute;
   right: 8px;
