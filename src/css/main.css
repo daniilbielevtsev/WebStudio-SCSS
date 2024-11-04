@@ -150,7 +150,7 @@ main {
 }
 .filter {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   gap: 8px;
   margin-bottom: 34px;
   height: 54px;
@@ -180,6 +180,11 @@ main {
   color: #ffffff;
 }
 
+@media (min-width: 768px) {
+  .filter {
+    justify-content: center;
+  }
+}
 .prodjekt__titel {
   color: #000000;
   font-weight: 700;

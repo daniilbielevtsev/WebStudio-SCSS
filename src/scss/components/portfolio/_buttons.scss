@@ -1,6 +1,6 @@
 .filter {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   gap: 8px;
   margin-bottom: 34px;
   height: 54px;
@@ -27,4 +27,9 @@
   background-color: $colorHover;
   padding: 6px 25px;
   color: $secondtColor;
+}
+@media (min-width: 768px) {
+  .filter {
+    justify-content: center;
+  }
 }
